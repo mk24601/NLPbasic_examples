@@ -1,0 +1,22 @@
+[mkurii@MionoMacBook-Pro: ~/Desktop/workshop2020]
+$ python classification.py                                                                                                                             15:21:40 
+データセット : companies_bow1.csv
+訓練にかかった時間 : 7.151408910751343
+テストデータに対する正解率： 0.8900
+
+【分類結果の詳細】
+        event   IT      medical
+event   96      3       1
+IT      9       91      0
+medical 19      1       80
+[mkurii@MionoMacBook-Pro: ~/Desktop/workshop2020]
+$ python classification.py                                                                                                                             15:22:04 
+データセット : companies_bow2.csv
+訓練にかかった時間 : 5.538684844970703
+テストデータに対する正解率： 0.8633
+
+【分類結果の詳細】
+        medical IT      event
+medical 80      0       20
+IT      1       85      14
+event   2       4       94
